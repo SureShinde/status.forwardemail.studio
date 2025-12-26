@@ -235,7 +235,7 @@
     "uptimeYear": "99.79%",
     "time": 47,
     "timeDay": 50,
-    "timeWeek": 47,
+    "timeWeek": 46,
     "timeMonth": 43,
     "timeYear": 46,
     "dailyMinutesDown": {
@@ -546,7 +546,7 @@
     "uptimeYear": "100.00%",
     "time": 46,
     "timeDay": 51,
-    "timeWeek": 43,
+    "timeWeek": 42,
     "timeMonth": 44,
     "timeYear": 46,
     "dailyMinutesDown": {}
@@ -600,7 +600,7 @@
     "uptimeYear": "100.00%",
     "time": 46,
     "timeDay": 50,
-    "timeWeek": 46,
+    "timeWeek": 45,
     "timeMonth": 44,
     "timeYear": 46,
     "dailyMinutesDown": {}
@@ -722,19 +722,19 @@
     "url": "pop3.forwardemail.net",
     "icon": "https://raw.githubusercontent.com/forwardemail/forwardemail.net/master/assets/img/favicon.ico",
     "slug": "pop3-forwardemail-net-2995-i-pv4",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.05%",
+    "uptimeWeek": "99.86%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "100.00%",
     "time": 48,
-    "timeDay": 51,
-    "timeWeek": 49,
+    "timeDay": 47,
+    "timeWeek": 48,
     "timeMonth": 46,
     "timeYear": 47,
     "dailyMinutesDown": {
-      "2025-12-26": 1
+      "2025-12-26": 14
     }
   },
   {
