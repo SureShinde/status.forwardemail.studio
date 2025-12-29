@@ -13,7 +13,7 @@
     "time": 1159,
     "timeDay": 501,
     "timeWeek": 495,
-    "timeMonth": 564,
+    "timeMonth": 565,
     "timeYear": 1352,
     "dailyMinutesDown": {
       "2025-12-02": 80,
@@ -236,7 +236,7 @@
     "time": 47,
     "timeDay": 48,
     "timeWeek": 44,
-    "timeMonth": 44,
+    "timeMonth": 45,
     "timeYear": 46,
     "dailyMinutesDown": {
       "2025-10-29": 124,
@@ -505,7 +505,7 @@
     "time": 49,
     "timeDay": 21,
     "timeWeek": 40,
-    "timeMonth": 43,
+    "timeMonth": 44,
     "timeYear": 47,
     "dailyMinutesDown": {
       "2025-03-07": 27,
@@ -549,7 +549,7 @@
     "time": 46,
     "timeDay": 45,
     "timeWeek": 42,
-    "timeMonth": 44,
+    "timeMonth": 45,
     "timeYear": 46,
     "dailyMinutesDown": {}
   },
@@ -585,7 +585,7 @@
     "time": 45,
     "timeDay": 19,
     "timeWeek": 40,
-    "timeMonth": 44,
+    "timeMonth": 43,
     "timeYear": 45,
     "dailyMinutesDown": {}
   },
@@ -813,7 +813,7 @@
     "time": 37,
     "timeDay": 68,
     "timeWeek": 52,
-    "timeMonth": 46,
+    "timeMonth": 45,
     "timeYear": 38,
     "dailyMinutesDown": {
       "2025-02-25": 155
@@ -1021,7 +1021,7 @@
     "time": 46,
     "timeDay": 45,
     "timeWeek": 45,
-    "timeMonth": 46,
+    "timeMonth": 47,
     "timeYear": 46,
     "dailyMinutesDown": {
       "2025-12-02": 58
@@ -1050,10 +1050,10 @@
     "url": "sqlite.forwardemail.net",
     "icon": "https://sqlite.org/favicon.ico",
     "slug": "sqlite-forwardemail-net",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 46,
@@ -1062,6 +1062,7 @@
     "timeMonth": 47,
     "timeYear": 46,
     "dailyMinutesDown": {
+      "2025-12-29": 2,
       "2025-02-20": 41,
       "2025-02-12": 96
     }
