@@ -32,24 +32,27 @@ jobs:
       - name: Install dependencies
         run: npm ci --ignore-scripts || npm install
 
-      - name: Restore state file
-        id: cache-restore
-        uses: actions/cache/restore@v4
-        with:
-          path: .external-mail-status.json
-          key: external-mail-status-v1
-          restore-keys: |
-            external-mail-status-
-
       - name: Run external mail monitor
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
           GITHUB_TOKEN: ${{ secrets.GH_PAT || github.token }}
         run: node scripts/external-mail-monitor.js
 
-      - name: Save state file
-        if: always()
-        uses: actions/cache/save@v4
-        with:
-          path: .external-mail-status.json
-          key: external-mail-status-v1-${{ github.run_id }}
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Commit state file
+        run: |
+          if [ -f .external-mail-status.json ]; then
+            git add .external-mail-status.json
+            if git diff --staged --quiet; then
+              echo "No changes to state file"
+            else
+              git commit -m "chore: update external mail status [skip ci]"
+              git push
+            fi
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || github.token }}

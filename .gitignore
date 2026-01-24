@@ -1,9 +1,6 @@
 # Dependencies
 node_modules/
 
-# State files
-.external-mail-status.json
-
 # Logs
 *.log
 npm-debug.log*
