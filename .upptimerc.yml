@@ -365,38 +365,38 @@ sites:
     icon: https://raw.githubusercontent.com/forwardemail/forwardemail.net/master/assets/img/favicon.ico
     port: 443
     check: "ssl"
-  - name: imap.forwardemail.net (SSL)
-    url: imap.forwardemail.net
-    icon: https://raw.githubusercontent.com/forwardemail/forwardemail.net/master/assets/img/favicon.ico
-    port: 993
-    check: "ssl"
-  - name: smtp.forwardemail.net (SSL)
-    url: smtp.forwardemail.net
-    icon: https://raw.githubusercontent.com/forwardemail/forwardemail.net/master/assets/img/favicon.ico
-    port: 465
-    check: "ssl"
-  - name: pop3.forwardemail.net (SSL)
-    url: pop3.forwardemail.net
-    icon: https://raw.githubusercontent.com/forwardemail/forwardemail.net/master/assets/img/favicon.ico
-    port: 995
-    check: "ssl"
+#  - name: imap.forwardemail.net (SSL)
+#    url: imap.forwardemail.net
+#    icon: https://raw.githubusercontent.com/forwardemail/forwardemail.net/master/assets/img/favicon.ico
+#    port: 993
+#    check: "ssl"
+#  - name: smtp.forwardemail.net (SSL)
+#    url: smtp.forwardemail.net
+#    icon: https://raw.githubusercontent.com/forwardemail/forwardemail.net/master/assets/img/favicon.ico
+#    port: 465
+#    check: "ssl"
+#  - name: pop3.forwardemail.net (SSL)
+#    url: pop3.forwardemail.net
+#    icon: https://raw.githubusercontent.com/forwardemail/forwardemail.net/master/assets/img/favicon.ico
+#    port: 995
+#    check: "ssl"
 
-  # we cannot test these because they do not allow ping on managed dbs and ip-restricted access list only
-  # - name: mongo
-  #   url: $MONGO_HOST
-  #   icon: https://raw.githubusercontent.com/mongodb/mongo/master/docs/leaf.svg
-  #   port: $MONGO_PORT
-  #   check: "tcp-ping"
-  # - name: logs
-  #   url: $LOGS_HOST
-  #   icon: https://raw.githubusercontent.com/mongodb/mongo/master/docs/leaf.svg
-  #   port: $LOGS_PORT
-  #   check: "tcp-ping"
-  # - name: redis
-  #   url: $REDIS_HOST
-  #   icon: https://redis.io/images/favicons/favicon.ico
-  #   port: $REDIS_PORT
-  #   check: "tcp-ping"
+# we cannot test these because they do not allow ping on managed dbs and ip-restricted access list only
+# - name: mongo
+#   url: $MONGO_HOST
+#   icon: https://raw.githubusercontent.com/mongodb/mongo/master/docs/leaf.svg
+#   port: $MONGO_PORT
+#   check: "tcp-ping"
+# - name: logs
+#   url: $LOGS_HOST
+#   icon: https://raw.githubusercontent.com/mongodb/mongo/master/docs/leaf.svg
+#   port: $LOGS_PORT
+#   check: "tcp-ping"
+# - name: redis
+#   url: $REDIS_HOST
+#   icon: https://redis.io/images/favicons/favicon.ico
+#   port: $REDIS_PORT
+#   check: "tcp-ping"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
