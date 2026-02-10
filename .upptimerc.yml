@@ -5,296 +5,296 @@ repo: status.forwardemail.studio # The name of this repository
 sites:
   - name: https://forwardemail.studio (curl)
     url: https://forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
 
   - name: forwardemail.studio:443 (IPv4)
     url: forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "tcp-ping"
   - name: forwardemail.studio:443 (IPv6)
     url: forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "tcp-ping"
     ipv6: false
 
   - name: forwardemail.studio:80 (IPv4)
     url: forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 80
     check: "tcp-ping"
   - name: forwardemail.studio:80 (IPv6)
     url: forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 80
     check: "tcp-ping"
     ipv6: false
 
   - name: https://api.forwardemail.studio (curl)
     url: https://api.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
 
   - name: api.forwardemail.studio:443 (IPv4)
     url: api.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "tcp-ping"
   - name: api.forwardemail.studio:443 (IPv6)
     url: api.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "tcp-ping"
     ipv6: false
 
   - name: api.forwardemail.studio:80 (IPv4)
     url: api.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 80
     check: "tcp-ping"
   - name: api.forwardemail.studio:80 (IPv6)
     url: api.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 80
     check: "tcp-ping"
     ipv6: false
 
   - name: smtp.forwardemail.studio:587 (IPv4)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 587
     check: "tcp-ping"
   - name: smtp.forwardemail.studio:587 (IPv6)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 587
     check: "tcp-ping"
     ipv6: false
 
   - name: smtp.forwardemail.studio:2587 (IPv4)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2587
     check: "tcp-ping"
   - name: smtp.forwardemail.studio:2587 (IPv6)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2587
     check: "tcp-ping"
     ipv6: false
 
   - name: smtp.forwardemail.studio:465 (IPv4)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 465
     check: "tcp-ping"
   - name: smtp.forwardemail.studio:465 (IPv6)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 465
     check: "tcp-ping"
     ipv6: false
 
   - name: smtp.forwardemail.studio:2465 (IPv4)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2465
     check: "tcp-ping"
   - name: smtp.forwardemail.studio:2465 (IPv6)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2465
     check: "tcp-ping"
     ipv6: false
 
   - name: smtp.forwardemail.studio:25 (IPv4)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 25
     check: "tcp-ping"
   - name: smtp.forwardemail.studio:25 (IPv6)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 25
     check: "tcp-ping"
     ipv6: false
 
   - name: smtp.forwardemail.studio:2525 (IPv4)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2525
     check: "tcp-ping"
   - name: smtp.forwardemail.studio:2525 (IPv6)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2525
     check: "tcp-ping"
     ipv6: false
 
   - name: smtp.forwardemail.studio:2455 (IPv4) (SSL with TLS 1.0 Legacy)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2455
     check: "tcp-ping"
   - name: smtp.forwardemail.studio:2455 (IPv6) (SSL with TLS 1.0 Legacy)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2455
     check: "tcp-ping"
     ipv6: false
 
   - name: smtp.forwardemail.studio:2555 (IPv4) (STARTTLS with TLS 1.0 Legacy)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2555
     check: "tcp-ping"
   - name: smtp.forwardemail.studio:2555 (IPv6) (STARTTLS with TLS 1.0 Legacy)
     url: smtp.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2555
     check: "tcp-ping"
     ipv6: false
 
   - name: imap.forwardemail.studio:993 (IPv4)
     url: imap.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 993
     check: "tcp-ping"
   - name: imap.forwardemail.studio:993 (IPv6)
     url: imap.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 993
     check: "tcp-ping"
     ipv6: false
 
   - name: imap.forwardemail.studio:2993 (IPv4)
     url: imap.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2993
     check: "tcp-ping"
   - name: imap.forwardemail.studio:2993 (IPv6)
     url: imap.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2993
     check: "tcp-ping"
     ipv6: false
 
   - name: imap.forwardemail.studio:4190 (IPv4) (ManageSieve)
     url: imap.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 4190
     check: "tcp-ping"
   - name: imap.forwardemail.studio:4190 (IPv6) (ManageSieve)
     url: imap.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 4190
     check: "tcp-ping"
     ipv6: false
 
   - name: imap.forwardemail.studio:2190 (IPv4) (ManageSieve STARTTLS)
     url: imap.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2190
     check: "tcp-ping"
   - name: imap.forwardemail.studio:2190 (IPv6) (ManageSieve STARTTLS)
     url: imap.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2190
     check: "tcp-ping"
     ipv6: false
 
   - name: pop3.forwardemail.studio:995 (IPv4)
     url: pop3.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 995
     check: "tcp-ping"
   - name: pop3.forwardemail.studio:995 (IPv6)
     url: pop3.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 995
     check: "tcp-ping"
     ipv6: false
 
   - name: pop3.forwardemail.studio:2995 (IPv4)
     url: pop3.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2995
     check: "tcp-ping"
   - name: pop3.forwardemail.studio:2995 (IPv6)
     url: pop3.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 2995
     check: "tcp-ping"
     ipv6: false
 
   - name: mx1.forwardemail.studio:25 (IPv4)
     url: mx1.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 25
     check: "tcp-ping"
   - name: mx1.forwardemail.studio:25 (IPv6)
     url: mx1.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 25
     check: "tcp-ping"
     ipv6: false
 
   - name: mx2.forwardemail.studio:25 (IPv4)
     url: mx2.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 25
     check: "tcp-ping"
   - name: mx2.forwardemail.studio:25 (IPv6)
     url: mx2.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 25
     check: "tcp-ping"
     ipv6: false
 
   - name: caldav.forwardemail.studio:443 (IPv4)
     url: caldav.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "tcp-ping"
   - name: caldav.forwardemail.studio:443 (IPv6)
     url: caldav.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "tcp-ping"
     ipv6: false
 
   - name: caldav.forwardemail.studio:80 (IPv4)
     url: caldav.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 80
     check: "tcp-ping"
   - name: caldav.forwardemail.studio:80 (IPv6)
     url: caldav.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 80
     check: "tcp-ping"
     ipv6: false
 
   - name: carddav.forwardemail.studio:443 (IPv4)
     url: carddav.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "tcp-ping"
   - name: carddav.forwardemail.studio:443 (IPv6)
     url: carddav.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "tcp-ping"
     ipv6: false
 
   - name: carddav.forwardemail.studio:80 (IPv4)
     url: carddav.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 80
     check: "tcp-ping"
   - name: carddav.forwardemail.studio:80 (IPv6)
     url: carddav.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 80
     check: "tcp-ping"
     ipv6: false
@@ -325,59 +325,59 @@ sites:
 
   - name: logs.forwardemail.studio
     url: logs.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 22
     check: "tcp-ping"
 
   #  - name: mail.forwardemail.studio
   #    url: mail.forwardemail.studio
-  #    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+  #    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
   #    port: 22
   #    check: "tcp-ping"
 
   - name: forwardemail.studio:443 (SSL)
     url: forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "ssl"
   - name: api.forwardemail.studio (SSL)
     url: api.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "ssl"
   - name: caldav.forwardemail.studio (SSL)
     url: caldav.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "ssl"
   - name: carddav.forwardemail.studio (SSL)
     url: carddav.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "ssl"
   - name: status.forwardemail.studio (SSL)
     url: status.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "ssl"
   - name: checkout.forwardemail.studio (SSL)
     url: checkout.forwardemail.studio
-    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
     port: 443
     check: "ssl"
 #  - name: imap.forwardemail.studio (SSL)
 #    url: imap.forwardemail.studio
-#    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+#    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
 #    port: 993
 #    check: "ssl"
 #  - name: smtp.forwardemail.studio (SSL)
 #    url: smtp.forwardemail.studio
-#    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+#    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
 #    port: 465
 #    check: "ssl"
 #  - name: pop3.forwardemail.studio (SSL)
 #    url: pop3.forwardemail.studio
-#    icon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/favicon.ico
+#    icon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/favicon.ico
 #    port: 995
 #    check: "ssl"
 
@@ -404,8 +404,8 @@ status-website:
   cname: status.forwardemail.studio
   # baseUrl: /your-repo-name
   logoUrl: https://forwardemail.studio/img/logo-square.svg
-  favicon: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/apple-touch-icon.png
-  faviconSvg: https://raw.githubusercontent.com/sureshinde/forwardemail.net/master/assets/img/logo-square.svg
+  favicon: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/apple-touch-icon.png
+  faviconSvg: https://raw.githubusercontent.com/sureshinde/forwardemail/master/assets/img/logo-square.svg
   name: Status Page | Forward Email
   customHeadHtml: '<meta name="robots" content="noindex nofollow noarchive noimageindex">'
   introTitle: "**Forward Email** is the only 100% open-source and privacy-focused email service."
