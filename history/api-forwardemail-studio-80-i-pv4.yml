@@ -1,7 +1,7 @@
 url: api.forwardemail.studio
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-02-09T11:25:57.962Z
+status: up
+code: 200
+responseTime: 233
+lastUpdated: 2026-02-10T05:25:42.761Z
 startTime: 2026-02-09T11:24:42.882Z
 generator: Upptime <https://github.com/upptime/upptime>
